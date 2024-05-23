@@ -1,11 +1,14 @@
 
+import React from "react"
+import { Header } from "./sections/header/Header"
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
      <header>
+      <Header/>
      
      </header>
      <main>
