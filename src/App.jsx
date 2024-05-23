@@ -3,6 +3,8 @@ import React from "react";
 import './App.css';
 import { Header } from "./sections/header/Header";
 import { BannerProfile } from "./sections/main/BannerProfile";
+import { Projects } from "./sections/main/Projects";
+
 
 function App() {
   
@@ -16,6 +18,7 @@ function App() {
      </header>
      <main>
       <BannerProfile/>
+      <Projects/>
 
      </main>
      <footer>
