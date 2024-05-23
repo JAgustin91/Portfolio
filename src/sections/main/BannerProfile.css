@@ -1,0 +1,13 @@
+.profile_container {
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px rgba(124, 124, 123, 0.5);
+}
+
+  .img_profile {
+    width: 20.7rem;
+  }
+
+  .bg-skills {
+    background: linear-gradient(to top,  #8f8373, #1a1c19);
+    
+  }
