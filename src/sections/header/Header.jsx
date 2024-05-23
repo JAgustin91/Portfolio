@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
 import Aos from "aos";
@@ -14,10 +13,16 @@ const Header = () => {
     <>
       <header className="bg">
         <div className="container-fluid vh-100 header_container">
-          <div className="d-flex justify-content-end">     
-            <div>
-              <a type="button" className="bg-primary rounded-2 text-light p-2 mt-3 button_contact" href="#contactame">CONTÁCTAME</a>
+          <div className="d-flex justify-content-end me-2" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="3000">     
+            <div className='d-flex flex-column'>
+              <a type="button" className="bg-danger rounded-2 text-light p-2 mt-3 button_contact" href="#contactame">"CONTÁCTAME"<div className='text-center mt-2'><box-icon name='mail-send' color="white" size="lg"></box-icon></div></a>
+              <div className='text-center mt-4'>
             </div>
+            </div>
+            
           </div>
           <div className="row">
             <div className="col">
