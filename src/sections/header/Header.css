@@ -1,16 +1,7 @@
 .header_container {
-  background-image: url('https://cdn.diegooo.com/media/20210122111953/nubelson-fernandes-Xqckh_XVU4-unsplash-e1611343293515.jpg');
+  background-image: url("https://cdn.diegooo.com/media/20210122111953/nubelson-fernandes-Xqckh_XVU4-unsplash-e1611343293515.jpg");
   background-size: cover;
   background-attachment: fixed;
-};
-
-.up {
-  margin-top: 10rem;
-};
-
-.header_margin-up {
-  margin-top: 10rem;
-  font-size: 3rem;
 };
 
 .button_contact {
