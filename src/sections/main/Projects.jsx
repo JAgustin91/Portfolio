@@ -18,7 +18,7 @@ const Projects = () => {
         <div className='container-fluid projects_container py-5 ' data-aos="fade-up"
             data-aos-duration="3000">
             <div className='row d-flex justify-content-center'>
-            <h2 className="text-danger text-center fs-1 my-5">Mis Proyectos</h2>
+            <h2 className="text-danger text-center fs-1 my-5">Ultimos Proyectos</h2>
             <div className="d-flex justify-content-around align-items-center flex-wrap gap-5 text-center">
                 <CardsProjects/>
             </div>
