@@ -6,17 +6,16 @@
 
 .up {
   margin-top: 10rem;
-}
+};
 
 .header_margin-up {
   margin-top: 10rem;
   font-size: 3rem;
-}
+};
 
 .button_contact {
   font-size: 1.5rem;
   text-decoration: none;
   border-radius: 10px; /* Opcional: agrega esquinas redondeadas */
   box-shadow: 10px 10px 0px rgba(204, 64, 64, 0.5);
-
-}
+};

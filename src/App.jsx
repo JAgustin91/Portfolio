@@ -4,7 +4,7 @@ import './App.css';
 import { Header } from "./sections/header/Header";
 import { BannerProfile } from "./sections/main/BannerProfile";
 import { Projects } from "./sections/main/Projects";
-
+import { FormContact } from "./sections/main/FormContact"
 
 function App() {
   
@@ -19,6 +19,7 @@ function App() {
      <main>
       <BannerProfile/>
       <Projects/>
+      <FormContact/>
 
      </main>
      <footer>
