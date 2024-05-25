@@ -43,7 +43,7 @@ const Header = () => {
                 <h2 className="text-light">
                   👋Hola, Soy Desarrollador WEB Fullstack
                 </h2>
-                <a href="https://www.linkedin.com/in/javier-agustin-aguilar/">
+                <a href="https://www.linkedin.com/in/javier-agustin-aguilar/" target="_blank">
                   <box-icon
                     type="logo"
                     name="linkedin-square"
@@ -51,7 +51,7 @@ const Header = () => {
                     color="grey"
                   ></box-icon>
                 </a>
-                <a href="https://github.com/JAgustin91">
+                <a href="https://github.com/JAgustin91" target="_blank">
                   <box-icon
                     name="github"
                     type="logo"
