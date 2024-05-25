@@ -1,0 +1,6 @@
+.card_container {
+  width: 20rem;
+  background-color: #1d2019;
+  border-radius: 10px; /* Opcional: agrega esquinas redondeadas */
+  box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.5);
+};

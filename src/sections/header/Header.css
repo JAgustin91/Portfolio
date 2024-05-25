@@ -1,0 +1,12 @@
+.header_container {
+  background-image: url("https://cdn.diegooo.com/media/20210122111953/nubelson-fernandes-Xqckh_XVU4-unsplash-e1611343293515.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+};
+
+.button_contact {
+  font-size: 1.5rem;
+  text-decoration: none;
+  border-radius: 10px; /* Opcional: agrega esquinas redondeadas */
+  box-shadow: 10px 10px 0px rgba(204, 64, 64, 0.5);
+};
