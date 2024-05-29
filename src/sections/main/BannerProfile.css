@@ -10,3 +10,7 @@
 .bg-skills {
   background: linear-gradient(to top, #8f8373, #1a1c19);
 }
+
+.text-align {
+  text-align: justify;
+}
