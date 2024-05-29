@@ -39,11 +39,14 @@ const Header = () => {
                 data-aos="fade-up"
                 data-aos-duration="3000"
               >
-                <h1 className="text-danger mt-5 pt-5">Welcome!</h1>
+                <h1 className="text-danger mt-5 pt-5">¡Bienvenidos!</h1>
                 <h2 className="text-light">
-                  👋Hola, Soy Desarrollador WEB Fullstack
+                  👋Soy "Javier Aguilar" Desarrollador WEB Fullstack
                 </h2>
-                <a href="https://www.linkedin.com/in/javier-agustin-aguilar/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/in/javier-agustin-aguilar/"
+                  target="_blank"
+                >
                   <box-icon
                     type="logo"
                     name="linkedin-square"

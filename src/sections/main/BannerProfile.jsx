@@ -21,22 +21,25 @@ const BannerProfile = () => {
               data-aos="zoom-in"
               data-aos-duration="3000"
             >
-              <h2 className="text-danger fs-1">Acerca de mi</h2>
-              <p className="text-secondary border-danger">
-                Soy un apasionado aprendiz de desarrollo Full Stack MERN. Con un
-                certificado en Frontend de Alura y formandome en UX Research,
-                tengo sólidos conocimientos en HTML, JavaScript, Bootstrap, CSS,
-                React, Node y Express. Además, cuento con habilidades en Git y
-                GitHub para gestionar proyectos de manera eficiente. 💼 Busco
-                oportunidades para aplicar mis habilidades técnicas y
-                colaborativas. Mi enfoque combina la funcionalidad del
-                desarrollo con la empatía y comprensión del usuario para crear
-                experiencias digitales significativas y efectivas. 💪🏻 Siempre
-                estoy dispuesto a aprender y crecer, ¡así que no dudes en
-                contactarme para colaboraciones o discutir ideas innovadoras!
+              <h2 className="text-danger fs-1">¡Acerca de mí!</h2>
+              <p className="text-secondary border-danger text-align">
+                Soy un apasionado aprendiz de desarrollo Full Stack MERN. Con
+                certificado en Rolling Code School y Alura Latam, tengo sólidos
+                conocimientos en HTML, JavaScript, Bootstrap, CSS, React, Node y
+                Express. Además, cuento con habilidades en Git y GitHub para
+                gestionar proyectos de manera eficiente. 💼 Busco oportunidades
+                para aplicar mis habilidades técnicas y colaborativas. Mi
+                enfoque combina la funcionalidad del desarrollo con la empatía y
+                comprensión del usuario para crear experiencias digitales
+                significativas y efectivas. 💪🏻 Siempre estoy dispuesto a
+                aprender y crecer, ¡así que no dudes en contactarme para
+                colaboraciones o para discutir ideas innovadoras!" He realizado
+                algunos cambios para mejorar la claridad y la fluidez del texto.
+                Si tienes alguna otra área específica que te gustaría revisar,
+                no dudes en mencionarla.
               </p>
               <h3 className="text-light">Mis Habilidades</h3>
-              <div>
+              <div className="mb-2">
                 <box-icon
                   type="logo"
                   name="html5"
@@ -87,15 +90,6 @@ const BannerProfile = () => {
                 ></box-icon>
               </div>
             </div>
-          </div>
-          <div className="col text-end mt-4">
-            <img
-              src={Profile}
-              alt="Foto de perfil"
-              className="img_profile"
-              data-aos="zoom-in"
-              data-aos-duration="3000"
-            />
           </div>
         </div>
       </div>

@@ -65,7 +65,7 @@ const FormContact = () => {
     <div className="container-fluid d-flex justify-content-center align-items-center flex-column vh-100">
       <div className="row">
         <div className="col">
-          <div className="text-center" id="contactame">
+          <div className="text-center mt-5" id="contactame">
             <h1 className="text-light mb-5">Contáctame</h1>
           </div>
           <Formik
@@ -159,8 +159,8 @@ const FormContact = () => {
                   )}
                 </button>
                 <p className="text-light">
-                  *Importante: puede que el mensaje demore unos segundos en ser
-                  enviado, por favor espere.
+                  *Importante: Puede que el mensaje tarde unos segundos en ser
+                  enviado. Por favor, espere.
                 </p>
               </Form>
             )}
