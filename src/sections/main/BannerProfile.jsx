@@ -33,10 +33,7 @@ const BannerProfile = () => {
                 comprensión del usuario para crear experiencias digitales
                 significativas y efectivas. 💪🏻 Siempre estoy dispuesto a
                 aprender y crecer, ¡así que no dudes en contactarme para
-                colaboraciones o para discutir ideas innovadoras!" He realizado
-                algunos cambios para mejorar la claridad y la fluidez del texto.
-                Si tienes alguna otra área específica que te gustaría revisar,
-                no dudes en mencionarla.
+                colaboraciones o para discutir ideas innovadoras!
               </p>
               <h3 className="text-light">Mis Habilidades</h3>
               <div className="mb-2">

@@ -6,11 +6,7 @@ const CardsProjects = (data) => {
     <>
       <div className="card_container py-4">
         <h5 className="card-title text-light mb-2">{data.title}</h5>
-        <img
-          src={`http://localhost:5173/src/assets/images/${data.img}`}
-          alt={data.title}
-          style={{ width: "18rem" }}
-        />
+        <img src={data.img} alt={data.title} style={{ width: "18rem" }} />
         <div className="card-body">
           <p className="card-text text-secondary mt-3">
             {data.descriptionCard}
@@ -21,12 +17,16 @@ const CardsProjects = (data) => {
           <div className="d-flex justify-content-center gap-2">
             <a
               href={data.github}
-              target="_blank"
+              target={data.target}
               className="btn btn-primary mt-1"
             >
               Ver código
             </a>
-            <a href={data.url} target="_blank" className="btn btn-primary mt-1">
+            <a
+              href={data.url}
+              target={data.target}
+              className="btn btn-primary mt-1"
+            >
               Ir a la web
             </a>
           </div>

@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg">
+      <header id="header">
         <div className="container-fluid vh-100 header_container">
           <div
             className="d-flex justify-content-end me-2"
