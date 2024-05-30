@@ -8,20 +8,22 @@ const CardsProjects = (data) => {
         <h5 className="card-title text-light mb-2">{data.title}</h5>
         <img src={data.img} alt={data.title} style={{ width: "18rem" }} />
         <div className="card-body">
-          <p className="card-text text-secondary mt-3">
+          <p className="card-text text-secondary mt-3 px-2">
             {data.descriptionCard}
           </p>
           <hr />
           <p className="text-secondary">{data.technologies}</p>
           <p className="text-secondary">Año: {data.year}</p>
           <div className="d-flex justify-content-center gap-2">
-            <a
-              href={data.github}
-              target={data.target}
-              className="btn btn-primary mt-1"
-            >
-              Ver código
-            </a>
+            {data.displayButton !== false && (
+              <a
+                href={data.github}
+                target={data.target}
+                className="btn btn-primary mt-1"
+              >
+                Ver código
+              </a>
+            )}
             <a
               href={data.url}
               target={data.target}
