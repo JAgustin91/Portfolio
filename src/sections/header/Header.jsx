@@ -26,7 +26,12 @@ const Header = () => {
               >
                 "CONTÁCTAME"
                 <div className="text-center mt-2">
-                  <box-icon name="mail-send" color="white" size="lg"></box-icon>
+                  <box-icon
+                    name="mail-send"
+                    color="white"
+                    size="lg"
+                    animation="fade-right-hover"
+                  ></box-icon>
                 </div>
               </a>
               <div className="text-center mt-4"></div>
@@ -43,25 +48,30 @@ const Header = () => {
                 <h2 className="text-light">
                   👋Soy "Javier Aguilar" Desarrollador WEB Fullstack
                 </h2>
-                <a
-                  href="https://www.linkedin.com/in/javier-agustin-aguilar/"
-                  target="_blank"
-                >
-                  <box-icon
-                    type="logo"
-                    name="linkedin-square"
-                    size="lg"
-                    color="grey"
-                  ></box-icon>
-                </a>
-                <a href="https://github.com/JAgustin91" target="_blank">
-                  <box-icon
-                    name="github"
-                    type="logo"
-                    size="lg"
-                    color="grey"
-                  ></box-icon>
-                </a>
+                <div>
+                  <p className="text-secondary fs-3 FollowMe">- Sígueme: -</p>
+                  <a
+                    href="https://www.linkedin.com/in/javier-agustin-aguilar/"
+                    target="_blank"
+                  >
+                    <box-icon
+                      type="logo"
+                      name="linkedin-square"
+                      size="lg"
+                      color="grey"
+                      animation="tada-hover"
+                    ></box-icon>
+                  </a>
+                  <a href="https://github.com/JAgustin91" target="_blank">
+                    <box-icon
+                      name="github"
+                      type="logo"
+                      size="lg"
+                      color="grey"
+                      animation="tada-hover"
+                    ></box-icon>
+                  </a>
+                </div>
               </div>
               <div
                 className="text-center"

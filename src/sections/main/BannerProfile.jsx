@@ -56,6 +56,12 @@ const BannerProfile = () => {
                   color="grey"
                 ></box-icon>
                 <box-icon
+                  type="logo"
+                  name="bootstrap"
+                  size="lg"
+                  color="grey"
+                ></box-icon>
+                <box-icon
                   name="react"
                   type="logo"
                   size="lg"

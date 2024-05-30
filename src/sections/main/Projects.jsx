@@ -32,6 +32,7 @@ const Projects = () => {
               url="#header"
               year="2024"
               github="https://github.com/jagustin91/portfolio"
+              displayButton={true}
             />
             <CardsProjects
               title="BurgerScript"
@@ -42,6 +43,7 @@ const Projects = () => {
               year="2024"
               github="https://github.com/grupo3rolling/FrontEnd-BurgerScript"
               target="_blank"
+              displayButton={true}
             />
             <CardsProjects
               title="RollingSports"
@@ -52,6 +54,7 @@ const Projects = () => {
               year="2024"
               github="https://github.com/RollingDeportes/RollingSports"
               target="_blank"
+              displayButton={true}
             />
             <CardsProjects
               title="RollingBlog"
@@ -61,6 +64,7 @@ const Projects = () => {
               year="2023"
               url="https://rollingblog.netlify.app/"
               target="_blank"
+              displayButton={false}
             />
           </div>
         </div>
