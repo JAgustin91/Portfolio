@@ -23,8 +23,8 @@ const BannerProfile = () => {
             >
               <h2 className="text-danger fs-1">¡Acerca de mí!</h2>
               <p className="text-secondary border-danger text-align">
-                Soy un apasionado aprendiz de desarrollo Full Stack MERN. Con
-                certificado en Rolling Code School y Alura Latam, tengo sólidos
+                Soy un apasionado en el desarrollo Full Stack. Con certificado
+                en Rolling Code School y Alura Latam, tengo sólidos
                 conocimientos en HTML, JavaScript, Bootstrap, CSS, React, Node y
                 Express. Además, cuento con habilidades en Git y GitHub para
                 gestionar proyectos de manera eficiente. 💼 Busco oportunidades
@@ -91,6 +91,15 @@ const BannerProfile = () => {
                   size="lg"
                   color="grey"
                 ></box-icon>
+              </div>
+              <div className="text-center my-3">
+                <a
+                  href="https://drive.google.com/file/d/1w7wsvi6qEOmbzRgTYCX-Jz-57uhyZ_w0/view?usp=drive_link"
+                  target="_blank"
+                  className="btn btn-primary text-light rounded-3 px-3 fs-4"
+                >
+                  Mi CV
+                </a>
               </div>
             </div>
           </div>
